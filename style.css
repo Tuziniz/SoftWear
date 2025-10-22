@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fbf8f6;
+    color: #444;
+    margin: 0;
+    background-color: #fbf8f6;
+}
+
+.Externo {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #fffaf9;
+    padding: 18px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 22%;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: #8b7f7f;
+    text-decoration: none;
+    font-weight: 600
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 15% 0;
+    background-image: url(imagens/Fundo.png);
+    background-size: cover;
+    background-position: center;
+    color: #222;
+    height: 600px;
+    
+
+}
+
+.banner .Content {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 14px;
+    max-width: 520px;
+    margin-left: 5%;
+}
+
+.banner h1 {
+    font-size: 240%;
+    margin: 0 0 2% 0;
+}
+
+.banner p {
+    margin: 0 0 18px 0;
+    color: #5a5555
+}
+
+.LinkProdutos {
+    display: inline-block;
+    background: #bd9f7c;;
+    color: #ffffff;
+    padding: 2% 5%;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 26px;
+    color: #483f3f
+}
+
+.grade-produtos {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.item {
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    width: 240px;
+    text-align: center
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px
+}
+
+.item p {
+    margin: 12px 0 6px 0;
+    font-weight: 600;
+    color: #666
+}
+
+footer {
+    background: #fff8f7;
+    padding: 18px 0;
+    text-align: center;
+    color: #6b5e5e;
+    margin-top: 30px
+}
+
+.form {
+    max-width: 520px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04)
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 0;
+
+    background: #f6d6d6;
+    color: #fff;
+    font-weight: 600
+}
