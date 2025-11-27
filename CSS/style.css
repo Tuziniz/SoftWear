@@ -146,7 +146,7 @@ footer {
 
 button {
     margin-top: 10px;
-    padding: 10px 14px;
+    padding: 5px 10px;
     border-radius: 8px;
     border: 0;
 
@@ -158,7 +158,24 @@ button {
 label{
  margin-left: 1;   
 }
+#ddd{
+    max-width: 5%;
+    text-align: center;
+}
+#numero{
+ max-width: 13%;
+ text-align: center;
 
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
 input,
 textarea {
   resize: none;

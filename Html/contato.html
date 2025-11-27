@@ -24,15 +24,18 @@
 
   <main class="container">
     <section class="section">
-      <h2>Fale Conosco</h2>
+      <h2>Faça Seu Pedido</h2>
       <div class="form" role="form">
         <form>
           <label for="nome">Nome:</label>
           <input id="nome" type="text" required>
           <label for="email">Email:</label>
           <input id="email" type="email" required>
+          <label for="numero">Numero:</label>
+          <input type="text" id="ddd" maxlength="2" placeholder="DDD" required>
+          <input id="numero" type="number" maxlength="9" placeholder="Número" required><br><br>
           <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" rows="5"></textarea>
+          <textarea id="mensagem" rows="5" required></textarea>
           <button type="submit">Enviar</button>
         </form>
       </div>
