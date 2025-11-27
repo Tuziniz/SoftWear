@@ -100,7 +100,11 @@ nav a {
     display: flex;
     gap: 26px;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    
+}
+a:link {
+  text-decoration: none;
 }
 
 .item {
@@ -150,3 +154,21 @@ button {
     color: #fff;
     font-weight: 600
 }
+
+label{
+ margin-left: 1;   
+}
+
+input,
+textarea {
+  resize: none;
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-top: 6px
+
+}
+
+
+
