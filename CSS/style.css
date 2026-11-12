@@ -25,6 +25,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 .logo img {
     height: 55px;
 }
@@ -40,8 +41,7 @@ nav ul {
 nav a {
     color: #8b7f7f;
     text-decoration: none;
-    font-weight: 600
-    
+    font-weight: 600;
 }
 
 .banner {
@@ -54,8 +54,6 @@ nav a {
     background-position: center;
     color: #222;
     height: 600px;
-    
-
 }
 
 .banner .Content {
@@ -73,12 +71,12 @@ nav a {
 
 .banner p {
     margin: 0 0 18px 0;
-    color: #5a5555
+    color: #5a5555;
 }
 
 .LinkProdutos {
     display: inline-block;
-    background: #bd9f7c;;
+    background: #bd9f7c;
     color: #ffffff;
     padding: 2% 5%;
     border-radius: 10px;
@@ -93,7 +91,7 @@ nav a {
 .section h2 {
     text-align: center;
     margin-bottom: 26px;
-    color: #483f3f
+    color: #483f3f;
 }
 
 .grade-produtos {
@@ -101,10 +99,10 @@ nav a {
     gap: 26px;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
+
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .item {
@@ -113,18 +111,18 @@ a:link {
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
     width: 240px;
-    text-align: center
+    text-align: center;
 }
 
 .item img {
     width: 100%;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 .item p {
     margin: 12px 0 6px 0;
     font-weight: 600;
-    color: #666
+    color: #666;
 }
 
 footer {
@@ -132,7 +130,7 @@ footer {
     padding: 18px 0;
     text-align: center;
     color: #6b5e5e;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .form {
@@ -141,7 +139,7 @@ footer {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04)
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
 }
 
 button {
@@ -149,44 +147,44 @@ button {
     padding: 5px 10px;
     border-radius: 8px;
     border: 0;
-
     background: #f6d6d6;
     color: #fff;
-    font-weight: 600
+    font-weight: 600;
 }
 
-label{
- margin-left: 1;   
-}
-#ddd{
+#ddd {
     max-width: 5%;
     text-align: center;
 }
-#numero{
- max-width: 13%;
- text-align: center;
 
+#numero {
+    max-width: 13%;
+    text-align: center;
 }
 
 input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: none,;
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0; 
+    -webkit-appearance: none;
+    margin: 0;
 }
+
 input,
 textarea {
-  resize: none;
-  width: 90%;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #eee;
-  margin-top: 6px
-
+    resize: none;
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-top: 6px;
 }
 
-
-
+.mensagem-retorno {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
